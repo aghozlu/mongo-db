@@ -15,7 +15,7 @@ mongod.exe --storageEngine=mmapv1
 
 mongod.exe --dbpath c:\data\db --journal  --storageEngine=mmapv1
 
-// Code runeing
+// Code runeing - Use this code when you run Mongo before and today it doesn't.
 
 mongod.exe --storageEngine=mmapv1 --dbpath "c:\data"
 
@@ -35,6 +35,8 @@ Start mongo shell
 
 
 /********************/
+
+change port running mongo db
 
 mongo or mongo --port 27017
 
